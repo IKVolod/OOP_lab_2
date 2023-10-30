@@ -1,4 +1,4 @@
-﻿using ООП_лаб_2;
+using ООП_лаб_2;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,7 +11,8 @@ class Program
         while (true)
         {
             MyTime obj = Make_Object_MyTime();
-            obj.WhatLesson();
+            MyShedule shedule = new MyShedule();
+            obj.WhatLesson(shedule);
         }
 
         while (true)
