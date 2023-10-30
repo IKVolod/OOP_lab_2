@@ -45,6 +45,8 @@ namespace ООП_лаб_2
             
             Array.Sort(arrayOfTimes, new MyTime_Array_Comparer());
 
+            _shedule = new List<MyTime[]>();
+            
             for (int i = 0; i < arrayOfTimes.Length / 2; i += 2)
             {
                 _shedule.Add(new MyTime[]{arrayOfTimes[i], arrayOfTimes[i + 1]});

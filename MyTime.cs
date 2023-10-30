@@ -124,17 +124,17 @@ namespace ООП_лаб_2
             return TotalSeconds - time.TotalSeconds;
         }
 
-        public void WhatLesson(MyShedule shedule)
+        public string WhatLesson(MyShedule shedule)
         {
             shedule.TestFillList();
 
             if (TotalSeconds < shedule.GetList[0].First().TotalSeconds)
             {
-                Console.WriteLine("Пари ще не почалися");
+                return "Пари ще не почалися";
             }
             else if (TotalSeconds >= shedule.GetList.Last().Last().TotalSeconds)
             {
-                Console.WriteLine("Пари вже закінчилися");
+                return "Пари вже закінчилися";
             }
             else
             {
@@ -143,17 +143,17 @@ namespace ООП_лаб_2
                     if (shedule.GetList[i][0].TotalSeconds <= TotalSeconds &
                         TotalSeconds < shedule.GetList[i][1].TotalSeconds)
                     {
-                        Console.WriteLine($"Зараз {i + 1} пара");
-                        break;
+                        return $"Зараз {i + 1} пара";
                     }
                     else if (shedule.GetList[i][1].TotalSeconds <= TotalSeconds &
                              TotalSeconds < shedule.GetList[i + 1][0].TotalSeconds)
                     {
-                        Console.WriteLine($"Зараз перерва між {i + 1} та {i + 2} парою");
-                        break;
+                        return $"Зараз перерва між {i + 1} та {i + 2} парою";
                     }
                 }
             }
+
+            return "ERROR";
         }
     }
 }
