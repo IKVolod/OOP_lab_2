@@ -27,7 +27,7 @@ class Program
 
     static MyTime Make_Object_MyTime()
     {
-        Console.WriteLine("Напишіть ваш час через пробіл (лише цілі числа)");
+        Console.WriteLine("Напишiть ваш час через пробiл (лише цiлi числа)");
         int[] array = Array.ConvertAll(Console.ReadLine().Trim().Split(), int.Parse);
         return new MyTime(array[0], array[1], array[2]);
     }

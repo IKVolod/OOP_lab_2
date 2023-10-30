@@ -1,0 +1,14 @@
+C:\Users\Little Warudo\Desktop\Projects\ООП лаб 2\bin\Debug\net7.0\ООП лаб 2.exe
+C:\Users\Little Warudo\Desktop\Projects\ООП лаб 2\bin\Debug\net7.0\ООП лаб 2.deps.json
+C:\Users\Little Warudo\Desktop\Projects\ООП лаб 2\bin\Debug\net7.0\ООП лаб 2.runtimeconfig.json
+C:\Users\Little Warudo\Desktop\Projects\ООП лаб 2\bin\Debug\net7.0\ООП лаб 2.dll
+C:\Users\Little Warudo\Desktop\Projects\ООП лаб 2\bin\Debug\net7.0\ООП лаб 2.pdb
+C:\Users\Little Warudo\Desktop\Projects\ООП лаб 2\obj\Debug\net7.0\ООП лаб 2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Little Warudo\Desktop\Projects\ООП лаб 2\obj\Debug\net7.0\ООП лаб 2.AssemblyInfoInputs.cache
+C:\Users\Little Warudo\Desktop\Projects\ООП лаб 2\obj\Debug\net7.0\ООП лаб 2.AssemblyInfo.cs
+C:\Users\Little Warudo\Desktop\Projects\ООП лаб 2\obj\Debug\net7.0\ООП лаб 2.csproj.CoreCompileInputs.cache
+C:\Users\Little Warudo\Desktop\Projects\ООП лаб 2\obj\Debug\net7.0\ООП лаб 2.dll
+C:\Users\Little Warudo\Desktop\Projects\ООП лаб 2\obj\Debug\net7.0\refint\ООП лаб 2.dll
+C:\Users\Little Warudo\Desktop\Projects\ООП лаб 2\obj\Debug\net7.0\ООП лаб 2.pdb
+C:\Users\Little Warudo\Desktop\Projects\ООП лаб 2\obj\Debug\net7.0\ООП лаб 2.genruntimeconfig.cache
+C:\Users\Little Warudo\Desktop\Projects\ООП лаб 2\obj\Debug\net7.0\ref\ООП лаб 2.dll

@@ -134,7 +134,7 @@ namespace ООП_лаб_2
             }
             else if (TotalSeconds >= shedule.GetList.Last().Last().TotalSeconds)
             {
-                return "Пари вже закінчилися";
+                return "Пари вже закiнчилися";
             }
             else
             {
@@ -148,7 +148,7 @@ namespace ООП_лаб_2
                     else if (shedule.GetList[i][1].TotalSeconds <= TotalSeconds &
                              TotalSeconds < shedule.GetList[i + 1][0].TotalSeconds)
                     {
-                        return $"Зараз перерва між {i + 1} та {i + 2} парою";
+                        return $"Зараз перерва мiж {i + 1} та {i + 2} парою";
                     }
                 }
             }
