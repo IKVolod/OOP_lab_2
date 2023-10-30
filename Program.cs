@@ -12,7 +12,7 @@ class Program
         {
             MyTime obj = Make_Object_MyTime();
             MyShedule shedule = new MyShedule();
-            obj.WhatLesson(shedule);
+            Console.WriteLine(obj.WhatLesson(shedule));
         }
 
         while (true)
