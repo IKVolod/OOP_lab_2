@@ -41,21 +41,31 @@ namespace ООП_лаб_2
         
         public MyShedule(MyTime[] arrayOfTimes)
         {
-            Check_MyTime_Array_Size(arrayOfTimes);
+            arrayOfTimes = Check_MyTime_List(arrayOfTimes);
             
             Array.Sort(arrayOfTimes, new MyTime_Array_Comparer());
 
-            _shedule = new List<MyTime[]>();
-            
             for (int i = 0; i < arrayOfTimes.Length / 2; i += 2)
             {
                 _shedule.Add(new MyTime[]{arrayOfTimes[i], arrayOfTimes[i + 1]});
             }
         }
 
-        private void Check_MyTime_Array_Size(MyTime[] arrayOfTimes)
+        private MyTime[] Check_MyTime_List(MyTime[] arrayOfTimes)
         {
-            if (arrayOfTimes.Length % 2 == 1) throw new ArgumentException("Array size must be even number");
+            List<MyTime> listOfTimes = new List<MyTime>(arrayOfTimes);
+                
+            for (int i = 0; i < listOfTimes.Count; i++)
+            {
+                for (int j = 0; j < listOfTimes.Count; j++)
+                {
+                    if (listOfTimes[i].TotalSeconds == listOfTimes[j].TotalSeconds) listOfTimes.RemoveAt(j);
+                }
+            }
+            
+            if (listOfTimes.Count % 2 == 1) throw new ArgumentException("Array size must be even number");
+
+            return listOfTimes.ToArray();
         }
     }
 }
