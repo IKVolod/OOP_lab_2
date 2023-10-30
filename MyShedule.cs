@@ -1,4 +1,4 @@
-﻿using ООП_лаб_2;
+using ООП_лаб_2;
 using System;
 using System.Collections;
 using System.Collections.Generic;
