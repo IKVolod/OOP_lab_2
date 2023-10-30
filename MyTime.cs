@@ -124,9 +124,8 @@ namespace ООП_лаб_2
             return TotalSeconds - time.TotalSeconds;
         }
 
-        public void WhatLesson()
+        public void WhatLesson(MyShedule shedule)
         {
-            MyShedule shedule = new MyShedule();
             shedule.TestFillList();
 
             if (TotalSeconds < shedule.GetList[0].First().TotalSeconds)
